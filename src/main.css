@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+#homeGrid {
+    background-color: #000000;
+}
+
+#homeGridItemLeft,
+#homeGridItemRight {
+    height: calc(100vh - 20px);
+    margin: 10px 10px;
+    border-radius: 20px;
+    padding: 0px;
+}
+
+#homeGridItemLeft {
+    background-image: url('../at-video.gif');
+    background-position: center;
+    background-size: cover;
+}
+
+#homeGridItemRight {
+    display: flex;
+    align-items: end;
+    text-align: left;
+    color: white;
+    background: none;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.rideList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+    letter-spacing: -5px;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+        0px 8px 13px rgba(0, 0, 0, 0.1),
+        0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+.rideList a {
+    text-decoration: none;
+    color: white;
+    padding: 0 .25rem;
+    padding-right: .70rem;
+    margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.nemesis {
+    box-shadow: inset 0 0 0 0 #BD2236;
+}
+
+.nemesis:hover {
+    box-shadow: inset 1000px 0 0 0 #BD2236;
+}
+
+.galactica {
+    box-shadow: inset 0 0 0 0 #9be6e6;
+}
+
+.galactica:hover {
+    box-shadow: inset 1000px 0 0 0 #9be6e6;
+}
+
+.oblivion {
+    box-shadow: inset 0 0 0 0 #F08B00;
+}
+
+.oblivion:hover {
+    box-shadow: inset 1000px 0 0 0 #F08B00;
+}
+
+.rita {
+    box-shadow: inset 0 0 0 0 #582B55;
+}
+
+.rita:hover {
+    box-shadow: inset 1000px 0 0 0 #582B55;
+}
+
+.theSmiler {
+    box-shadow: inset 0 0 0 0 #F0E200;
+}
+
+.theSmiler:hover {
+    box-shadow: inset 1000px 0 0 0 #F0E200;
+}
+
+.thirteen {
+    box-shadow: inset 0 0 0 0 #5BA43E;
+}
+
+.thirteen:hover {
+    box-shadow: inset 1000px 0 0 0 #5BA43E;
+}
+
+.wickerman {
+    box-shadow: inset 0 0 0 0 #EB1306;
+}
+
+.wickerman:hover {
+    box-shadow: inset 1000px 0 0 0 #EB1306;
+}
+
+#atTag {
+    background-color: transparent;
+    display: flex;
+    justify-content: end;
+    padding: 0;
+}
+
+.altonTowersText {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    width: 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    background-color: darkred;
+}
